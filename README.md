@@ -38,7 +38,7 @@ Experience the live application: **[fitsy.vercel.app](https://fitsy.vercel.app)*
 * **Custom Categories & Tags**: Create tailored categories, custom sub-tags, and bespoke icons to match personal closet organization styles.
 
 ### 2. 🎨 Hierarchical Outfit Canvas & Moodboard Studio
-* **5-Slot Anatomical Hierarchy**: Garments intuitively snap into their natural body positions (`Headwear` → `Tops` → `Bottoms` → `Shoes` → `Accessories`), regardless of the order they are selected.
+* **5-Slot Anatomical Hierarchy**: Garments intuitively snap into their natural body positions (`Headwear` → `Tops` → `Bottoms` → `Footwear` → `Accessories`), regardless of the order they are selected.
 * **Freeform Moodboard Studio**: Collage canvas featuring layered elements, stickers, background textures, scaling, rotation, and high-resolution export.
 * **One-Tap Outfit Loading**: Save favorite combinations to your personal style vault and reload them onto the canvas instantly for fast styling.
 
