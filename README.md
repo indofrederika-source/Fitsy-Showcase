@@ -16,7 +16,7 @@
 [![Supabase](https://img.shields.io/badge/Supabase-PostgreSQL-3ecf8e?logo=supabase)](https://supabase.com/)
 [![Capacitor](https://img.shields.io/badge/Capacitor-Mobile-119eff?logo=capacitor)](https://capacitorjs.com/)
 
-[**🚀 Try Live Web Application (fitsy.vercel.app)**](https://fitsy.vercel.app) • [Product Overview](#-product-overview) • [Design Philosophy](#-visual-identity--design-philosophy) • [Key Features](#-key-features) • [Architecture](#-architecture--technologies) • [Author](#-author--connect)
+[**🚀 Try Live Web Application (fitsy.vercel.app)**](https://fitsy.vercel.app) • [Product Overview](#-product-overview) • [Visual Identity](#-visual-identity--design-philosophy) • [Motion & Audio Engine](#-cinematic-physics-motion--procedural-audio-engine) • [Key Features](#-key-features) • [Architecture](#-architecture--technologies) • [Author](#-author--connect)
 
 </div>
 
@@ -51,6 +51,30 @@ Fitsy rejects template-driven minimalist software tropes in favor of an artistic
 
 ---
 
+## 💫 Cinematic Physics Motion & Procedural Audio Engine
+
+Fitsy is engineered to feel like a living, tactile instrument rather than a static webpage. Every motion curve is driven by calibrated spring physics, and every interaction is rewarded with low-latency procedural audio:
+
+### 🎬 High-Fidelity Physics & Motion System
+* **Dynamic Rotating Brand Hardware**: The signature header button features interactive 360° spring-physics rotation with material morphing (flannel weave, forged raw iron, and bold editorial dyes).
+* **Synchronized Paint-Flow Typography**: When the brand button morphs, the graffiti "FITSY" wordmark smoothly transitions its fill and dripping paint drops to match the new colorway in real time.
+* **Fluid Sliding Outfit Builder**: The outfit customizer replaces abrupt state swaps with smooth horizontal sliding transitions. Garment boxes sit centered, flanked by internal left/right arrow controls for intuitive, frictionless piece cycling.
+* **Magnetic Micro-Interactions**: Garment cards and interactive chips react to cursor weight with subtle spring elevation (`translateY(-2px)`) and elastic press squish (`scale(0.97)`).
+* **Strict Modal Scroll Isolation**: Integrated Lenis kinetic smooth scrolling paired with zero-bleed modal scroll locks (`data-lenis-prevent`) prevents the underlying background from scrolling when exploring inspect panels or modals.
+* **60–120 FPS GPU Compositing**: Animations strictly target `transform`, `opacity`, and GPU layers (`will-change: transform`) to prevent CPU reflows and eliminate layout thrashing.
+
+### 🔊 Procedural Zero-Asset Sound Engine (Tone.js + Web Audio API)
+Fitsy synthesizes its entire SFX palette algorithmically in the browser without downloading bulky MP3/WAV audio files:
+* 💨 **Aerosol Spray Paint Mist**: NoiseSynth frequency sweep simulating real spray-can mist on filter selections and tag interactions.
+* 🧵 **Crisp Fabric & Coat Whip**: Filtered pink and brown noise bursts capturing the tactile snap of tailored denim and outerwear.
+* ⚡ **Tactile Zipper Tick & Slide**: Rapid descending pitch micro-clicks mimicking metal bag zippers and hardware fasteners.
+* ✨ **Specular Crystal Chime**: FM-synthesized harmonic arpeggio (E6 → B6 → G#7) accentuating jewelry and luxury accessories.
+* 👞 **Resonant Footwear Stomp**: Sub-bass membrane synth impact (G0) giving physical weight and grounding to boots and sneakers.
+* 🔘 **Hardware Button Clink**: Dual-tone metallic resonance upon button rotation and material shifts.
+* 💥 **Editorial Pose Impact**: Visceral, low-frequency cinematic boom celebrating outfit saves, lookbook exports, and archival milestones.
+
+---
+
 ## 🚀 Key Features
 
 ### 1. 👗 Smart Wardrobe Digitization & Neural Vision
@@ -71,32 +95,23 @@ Fitsy rejects template-driven minimalist software tropes in favor of an artistic
 * **Freeform Canvas Studio**: Layering, rotation, scaling, and z-index ordering for custom fashion lookbooks.
 * **Strict Flat Garment Cutouts**: Pure editorial styling without artificial drop shadows, preserving authentic clothing lines.
 
-### 4. 🔊 Tactile Web Audio Engine & Kinetic Spring Motion
-* **Zero-Asset Procedural Audio Synthesis**: Powered by Web Audio API & Tone.js, synthesizing mechanical and tactile feedback without heavy audio asset downloads:
-  * Spray paint mist bursts
-  * Crisp garment snaps and coat fabric sweeps
-  * Metallic zipper slides & button clinks
-  * Resonant bass stomps & editorial impacts
-* **Fluid Spring Physics**: Calibrated spring constants (`stiffness`, `damping`, `mass`) via Framer Motion delivering tangible physical weight to every card, modal, and drawer.
-* **Lenis Kinetic Smooth Scroll**: Studio-grade inertial scrolling with dedicated modal scroll-lock isolation (`data-lenis-prevent`) to completely eliminate background scroll bleeding.
-
-### 5. 🌐 Editorial Fashion Community & Social Archive
+### 4. 🌐 Editorial Fashion Community & Social Archive
 * **Explore Discovery Feed**: Curated, randomized lookbook streams delivering fresh creator inspirations on every session.
 * **Fair-Exposure Friends Feed**: Intelligent round-robin delivery ensuring proportional creator exposure while preserving strict chronological update streams.
 * **Garment Inspection**: Directly inspect and explore individual tagged garments from community lookbooks and moodboard posts.
 * **Immersive Dynamic Header**: Auto-tucking navigation system that maximizes visual screen real estate during deep scrolling.
 
-### 6. 🔍 Multi-Category Instant Search
+### 5. 🔍 Multi-Category Instant Search
 * **In-Place Debounced Search**: Rapid filtering across Top Matches, Creator Accounts, Fashion Hashtags, and Community Posts without disruptive full-page popups.
 * **Inline Social Graph**: Instant Follow/Unfollow capabilities directly within creator search results.
 * **Archival Search History**: Local search persistence with instant clearance and trending aesthetic chips.
 
-### 7. 📅 Outfit Calendar & Archival Wear Tracker
+### 6. 📅 Outfit Calendar & Archival Wear Tracker
 * **Daily Outfit Dossier**: Schedule upcoming outfits or archive daily wears to build an authentic personal style chronicle.
 * **Cost-Per-Wear Analytics**: Track garment frequency and cost efficiency across seasons.
 * **Trip Packing Assistant**: Curate multi-day travel wardrobes complete with automated packing checklists.
 
-### 8. 📱 Progressive Web App & Native Mobile Runtime
+### 7. 📱 Progressive Web App & Native Mobile Runtime
 * **Touch-Optimized Gestures**: Native-feeling mobile gestures, rubber-band overscroll resistance, and bottom drawers.
 * **Bilingual Localization**: Instant client-side switching between **English** and **Indonesian (Bahasa Indonesia)**.
 * **Cross-Platform Mobile Container**: Seamless native deployment on iOS and Android via Capacitor CLI.
