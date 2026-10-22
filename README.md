@@ -1,19 +1,22 @@
-# Fitsy — Smart Virtual Wardrobe, AI Stylist & Fashion Community
+# Fitsy — Street-Editorial Fashion Archive & Digital Wardrobe
 
 <div align="center">
 
 <img src="icon-192x192.png" alt="Fitsy Logo" width="120" />
 
-### **Your personal digital wardrobe, intelligent AI stylist, and aesthetic fashion community platform.**
+### **The tactile, high-fashion wardrobe curation platform and aesthetic style community.**  
+*Infused with the rebellious energy of Gachiakuta street graffiti and the avant-garde couture elegance of JoJo's Bizarre Adventure.*
 
 [![Next.js](https://img.shields.io/badge/Next.js-16.4-black?logo=next.js)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/React-19.0-61dafb?logo=react)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178c6?logo=typescript)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-v4-38bdf8?logo=tailwindcss)](https://tailwindcss.com/)
+[![Tone.js](https://img.shields.io/badge/Audio-Tone.js-f59e0b)](https://tonejs.github.io/)
+[![Framer Motion](https://img.shields.io/badge/Motion-Framer_Motion-ff0055?logo=framer)](https://www.framer.com/motion/)
 [![Supabase](https://img.shields.io/badge/Supabase-PostgreSQL-3ecf8e?logo=supabase)](https://supabase.com/)
 [![Capacitor](https://img.shields.io/badge/Capacitor-Mobile-119eff?logo=capacitor)](https://capacitorjs.com/)
 
-[**🚀 Try Live Web Application (fitsy.vercel.app)**](https://fitsy.vercel.app) • [Product Overview](#-product-overview) • [Key Features](#-key-features) • [Architecture](#-architecture--technologies) • [Author](#-author)
+[**🚀 Try Live Web Application (fitsy.vercel.app)**](https://fitsy.vercel.app) • [Product Overview](#-product-overview) • [Design Philosophy](#-visual-identity--design-philosophy) • [Key Features](#-key-features) • [Architecture](#-architecture--technologies) • [Author](#-author--connect)
 
 </div>
 
@@ -21,78 +24,102 @@
 
 ## 🌟 Product Overview
 
-**Fitsy** is a modern fashion-technology platform designed to transform how individuals catalog, style, and share their everyday wardrobes. Inspired by contemporary editorial lookbooks and high-fashion aesthetics, Fitsy bridges personal closet inventory management with generative AI styling and an engaging, community-driven social discovery engine.
+**Fitsy** is a modern fashion-technology platform designed to transform how individuals catalog, style, and share their physical wardrobes. Moving beyond generic, sterile SaaS interfaces, Fitsy blends high-end editorial magazine layout architecture with underground street-art dynamism.
 
-Whether organizing garments, assembling visual moodboards, receiving color-theory recommendations, or sharing daily outfit inspiration with friends, Fitsy delivers a seamless experience across desktop, mobile web, and native mobile environments.
+Whether digitizing garments with on-device computer vision, crafting spatial editorial moodboards, experimenting with the multi-tier outfit builder, or sharing daily looks within a curated fashion community, Fitsy delivers an uncompromising, tactile experience across desktop, mobile web, and native mobile environments.
 
 Experience the live application: **[fitsy.vercel.app](https://fitsy.vercel.app)**
 
 ---
 
+## ⚡ Visual Identity & Design Philosophy
+
+### *"Street-Editorial Manga Brutalism" (50% Gachiakuta × 50% JoJo's Bizarre Adventure)*
+
+Fitsy rejects template-driven minimalist software tropes in favor of an artistic visual language built from two complementary counter-cultures:
+
+1. **50% Gachiakuta (Brutalist Streetwear & Graffiti Energy):**
+   * **Wildstyle Dripping Tag Brandmark**: A fluid graffiti handstyle logo with dripping spray paint physics (*paint drips*) dynamically synchronized with the interactive brand button.
+   * **Die-Cut Contrast & Angular Framing**: Chamfered borders, deep ink-line accents, and razor-sharp editorial card cuts inspired by street sticker slaps.
+   * **Atmospheric Micro-Mist**: Ultra-lightweight, 60–120 FPS GPU-optimized aerosol spray particles triggered during high-engagement interactions.
+
+2. **50% JoJo's Bizarre Adventure (Haute-Couture Editorial & Atelier Hardware):**
+   * **Runway Magazine Architecture**: High-contrast editorial typography, balanced whitespace, and asymmetrical dossier layouts inspired by high-fashion spreads.
+   * **Tactile Hardware Elements**: Realistic morphing garment buttons (flannel, forged iron, industrial brushed metal, and high-saturation pigments).
+   * **Haute-Couture Alabaster Canvas**: Pure white upgraded to an elegant, warm archival paper tone (`#F9F8F5`), framed with deep obsidian ink strokes (`#0E0E12`).
+   * **Sleek Silhouette Iconography**: Tailored garment silhouettes for the 7 primary navigation hubs and 9 clothing categories.
+
+---
+
 ## 🚀 Key Features
 
-### 1. 👗 Smart Wardrobe Digitization & Vision AI
-* **Instant Background Removal**: Automatically segments clothing from raw photos into crisp, transparent PNG cutouts directly in the browser using on-device neural vision models.
-* **Dominant Color Extraction**: Intelligent pixel analysis extracts exact dominant color palettes and HEX codes for automated categorization.
-* **AI Auto-Categorization**: Zero-shot image classification automatically categorizes items into Tops, Bottoms, Outerwear, Footwear, Headwear, and Accessories.
-* **Custom Categories & Tags**: Create tailored categories, custom sub-tags, and bespoke icons to match personal closet organization styles.
+### 1. 👗 Smart Wardrobe Digitization & Neural Vision
+* **On-Device Background Removal**: Automatically segments clothing from raw user photos into transparent studio cutouts directly in the browser via WebAssembly & neural vision pipelines.
+* **9 Primary Clothing Categories**: Comprehensive organizational taxonomy encompassing **Tops**, **Bottoms**, **Outerwear**, **Footwear**, **Bags**, **Accessories**, **Underwear / Nightwear**, **Full Body**, and **Swimwear**.
+* **3-Tier Deep Taxonomy**: Granular categorization structure accommodating sub-types and hyper-specific garment cuts.
+* **Dominant Color Extraction**: Intelligent pixel analysis extracts exact dominant color palettes and HEX codes for seamless wardrobe searching.
+* **Fluid Multi-Currency Pricing**: Responsive price tagging supporting international currency standards with automated thousands-separators.
 
-### 2. 🎨 Hierarchical Outfit Canvas & Moodboard Studio
-* **5-Slot Anatomical Hierarchy**: Garments intuitively snap into their natural body positions (`Headwear` → `Tops` → `Bottoms` → `Footwear` → `Accessories`), regardless of the order they are selected.
-* **Freeform Moodboard Studio**: Collage canvas featuring layered elements, stickers, background textures, scaling, rotation, and high-resolution export.
-* **One-Tap Outfit Loading**: Save favorite combinations to your personal style vault and reload them onto the canvas instantly for fast styling.
+### 2. 🔘 Interactive Brand Hardware & Dynamic Morphing Engine
+* **Rotating Physical Button**: An interactive garment button in the primary header that dynamically morphs across tactile material variants (cloth textures, forged iron/steel, and saturated editorial dyes) with kinetic spring rotation.
+* **Synchronized Logo Color Flow**: The wildstyle dripping graffiti wordmark seamlessly follows the button's active material colorway.
+* **Zero-Latency Dashboard Return**: Clicking the wordmark instantly brings the user back to the primary dossier view.
 
-### 3. 🤖 Intelligent AI Stylist & Color Harmony Engine
-* **Color Theory Algorithms**: Real-time outfit synergy calculations powered by complementary, analogous, monochromatic, and neutral color rules.
-* **Aesthetic Filters**: Discover outfit ideas tailored to specific aesthetics like *Minimalist*, *Streetwear*, *Clean Fit*, *Old Money*, and *Casual*.
-* **Visual Match Score**: Transparent AI scoring that explains *why* garments complement each other visually.
+### 3. 🎨 Hierarchical Outfit Studio & Spatial Moodboard
+* **Expanded Dual-Panel Outfit Builder**: Centered garment canvas flanked by integrated navigation controls and fluid sliding category transitions.
+* **Aspect-Ratio Preserved HD Export**: 100% pixel-accurate moodboard rendering and export engine—eliminating image stretching or canvas distortion.
+* **Freeform Canvas Studio**: Layering, rotation, scaling, and z-index ordering for custom fashion lookbooks.
+* **Strict Flat Garment Cutouts**: Pure editorial styling without artificial drop shadows, preserving authentic clothing lines.
 
-### 4. 🌐 Aesthetic Fashion Community & Social Feed
-* **Dynamic Explore Discovery**: Real-time randomized feed that delivers fresh, inspiring creator lookbooks on every session.
-* **Fair-Exposure Friends Feed**: Intelligent round-robin distribution that rotates between friends while preserving 100% chronological order for each friend's updates.
-* **Creator Interactions**: Like, comment, share, bookmark, and inspect tagged wardrobe items directly from community outfits.
-* **Smart Immersive Header**: Dynamic scroll detection automatically tucks the navigation away on scroll down for maximum viewing immersion, and smoothly reveals when scrolling up.
+### 4. 🔊 Tactile Web Audio Engine & Kinetic Spring Motion
+* **Zero-Asset Procedural Audio Synthesis**: Powered by Web Audio API & Tone.js, synthesizing mechanical and tactile feedback without heavy audio asset downloads:
+  * Spray paint mist bursts
+  * Crisp garment snaps and coat fabric sweeps
+  * Metallic zipper slides & button clinks
+  * Resonant bass stomps & editorial impacts
+* **Fluid Spring Physics**: Calibrated spring constants (`stiffness`, `damping`, `mass`) via Framer Motion delivering tangible physical weight to every card, modal, and drawer.
+* **Lenis Kinetic Smooth Scroll**: Studio-grade inertial scrolling with dedicated modal scroll-lock isolation (`data-lenis-prevent`) to completely eliminate background scroll bleeding.
 
-### 5. 🔍 Multi-Category Search Engine
-* **Live Instant Search**: Real-time debounced search bar with active category filtering:
-  * **Top**: Curated compilation of the most relevant accounts, hashtags, and posts.
-  * **Accounts**: Search creators by username and display name with inline Follow/Unfollow actions.
-  * **Hashtags**: Style tags with live post counts (e.g., `#Streetwear` • `1.4k posts`).
-  * **Posts**: Keyword and caption search across all community photos and moodboards.
-* **Search History & Trending Suggestions**: Local search history with quick-clear options and instant access to trending style chips.
+### 5. 🌐 Editorial Fashion Community & Social Archive
+* **Explore Discovery Feed**: Curated, randomized lookbook streams delivering fresh creator inspirations on every session.
+* **Fair-Exposure Friends Feed**: Intelligent round-robin delivery ensuring proportional creator exposure while preserving strict chronological update streams.
+* **Garment Inspection**: Directly inspect and explore individual tagged garments from community lookbooks and moodboard posts.
+* **Immersive Dynamic Header**: Auto-tucking navigation system that maximizes visual screen real estate during deep scrolling.
 
-### 6. 📅 Outfit Calendar & Travel Packing Assistant
-* **Daily Outfit Logging**: Schedule outfits in advance or log what you wore each day to build a personal wear history and style archive.
-* **Closet Utilization Analytics**: Track cost-per-wear and discover which items in your closet get the most love.
-* **Trip Packing Assistant**: Plan multi-day itineraries with destination weather forecasts and automated wardrobe packing checklists.
+### 6. 🔍 Multi-Category Instant Search
+* **In-Place Debounced Search**: Rapid filtering across Top Matches, Creator Accounts, Fashion Hashtags, and Community Posts without disruptive full-page popups.
+* **Inline Social Graph**: Instant Follow/Unfollow capabilities directly within creator search results.
+* **Archival Search History**: Local search persistence with instant clearance and trending aesthetic chips.
 
-### 7. 🔔 Push Notifications & Activity Alerts
-* **Web Push & Service Worker**: Native browser push notifications powered by the Web Notifications API and Service Workers.
-* **Granular Alert Preferences**: Toggle notifications for likes, comments, new followers, friend uploads, and daily outfit scheduling reminders.
+### 7. 📅 Outfit Calendar & Archival Wear Tracker
+* **Daily Outfit Dossier**: Schedule upcoming outfits or archive daily wears to build an authentic personal style chronicle.
+* **Cost-Per-Wear Analytics**: Track garment frequency and cost efficiency across seasons.
+* **Trip Packing Assistant**: Curate multi-day travel wardrobes complete with automated packing checklists.
 
-### 8. 📱 Progressive Web App & Fluid Mobile Experience
-* **Touch-First Design**: Engineered for mobile viewports with smooth gesture interactions, bottom sheets, and responsive touch controls.
-* **Bilingual UI**: Seamless, instant switching between **English** and **Indonesian (Bahasa Indonesia)**.
-* **Adaptive Theming**: Smooth system-level Dark and Light mode support across all screens and canvases.
+### 8. 📱 Progressive Web App & Native Mobile Runtime
+* **Touch-Optimized Gestures**: Native-feeling mobile gestures, rubber-band overscroll resistance, and bottom drawers.
+* **Bilingual Localization**: Instant client-side switching between **English** and **Indonesian (Bahasa Indonesia)**.
+* **Cross-Platform Mobile Container**: Seamless native deployment on iOS and Android via Capacitor CLI.
 
 ---
 
 ## 🛠️ Architecture & Technologies
 
-Fitsy is built with a modern, high-performance web and mobile stack:
+Fitsy is engineered for uncompromising performance, sub-millisecond perceived latency, and 60–120 FPS rendering:
 
-| Layer | Technology | Purpose |
+| Domain | Technology | Implementation Details |
 |---|---|---|
-| **Core Framework** | [Next.js 16](https://nextjs.org/) (App Router, Server Actions) | Full-stack server-rendered architecture and routing |
-| **UI Library** | [React 19](https://react.dev/) + [TypeScript](https://www.typescriptlang.org/) | Declarative component model and type safety |
-| **Design System** | [Tailwind CSS v4](https://tailwindcss.com/) + [next-themes](https://github.com/pacocoursey/next-themes) | Custom modern styling and fluid theme switching |
-| **Database & Cloud** | [PostgreSQL](https://www.postgresql.org/) via [Supabase](https://supabase.com/) | Relational database, indexing, and Row Level Security |
-| **Authentication** | [Supabase Auth](https://supabase.com/auth) & Session Cookies | Secure OAuth (Google) and cryptographic session management |
-| **Icons** | [Lucide React](https://lucide.dev/) | Clean, consistent vector iconography |
-| **Client-Side AI** | [Transformers.js](https://huggingface.co/docs/transformers.js) + HTML5 Canvas | In-browser background segmentation and color analysis |
-| **Cloud AI** | [Google Gemini](https://ai.google.dev/) API | Advanced fashion recommendations and caption analysis |
-| **Mobile Runtime** | [Capacitor CLI](https://capacitorjs.com/) | Cross-platform native Android container and bridges |
-| **Edge Infrastructure** | [Vercel](https://vercel.com/) | Edge hosting, global CDN, and automated CI/CD |
+| **Core Framework** | [Next.js 16.4](https://nextjs.org/) (App Router) | Full-stack server architecture, Server Actions & optimized bundling |
+| **UI Library** | [React 19](https://react.dev/) + [TypeScript 5](https://www.typescriptlang.org/) | Type-safe declarative components and concurrent rendering |
+| **Design System** | [Tailwind CSS v4](https://tailwindcss.com/) | Modern atomic CSS, CSS variables, and bespoke design tokens |
+| **Motion & Physics** | [Framer Motion](https://www.framer.com/motion/) + [GSAP](https://greensock.com/) | High-performance spring physics, GPU compositing & timeline choreography |
+| **Smooth Scrolling** | [@studio-freight/lenis](https://lenis.darkroom.engineering/) | Inertial kinetic smooth scrolling with strict modal isolation |
+| **Tactile Audio** | [Tone.js](https://tonejs.github.io/) + Web Audio API | Procedural, zero-network micro-sound synthesis |
+| **Expressive Canvas** | [Rough.js](https://roughjs.com/) + [Perfect Freehand](https://github.com/steveruizok/perfect-freehand) | Algorithmic ink strokes, hand-drawn contours & grunge borders |
+| **Database & Auth** | [Supabase](https://supabase.com/) (PostgreSQL) | Row Level Security (RLS), real-time indexing & cryptographic sessions |
+| **Client-Side AI** | [Transformers.js](https://huggingface.co/docs/transformers.js) + HTML5 Canvas | Local on-device background segmentation & color analysis |
+| **Mobile Runtime** | [Capacitor CLI](https://capacitorjs.com/) | Native Android & iOS cross-platform compilation bridges |
+| **Hosting & Edge** | [Vercel](https://vercel.com/) | Global Edge network, asset optimization & automated CI/CD pipelines |
 
 ---
 
@@ -112,6 +139,8 @@ Fitsy is a proprietary commercial product. The full codebase, database schemas, 
 * **Live Product**: [https://fitsy.vercel.app](https://fitsy.vercel.app)
 * **Contact**: [indo.frederika@gmail.com](mailto:indo.frederika@gmail.com)
 
+---
+
 <div align="center">
-Designed and crafted with passion for fashion curation, personal style, and modern engineering. 👗✨
+Crafted with passion for street culture, haute-couture fashion, and state-of-the-art web engineering. 🧵✨
 </div>
